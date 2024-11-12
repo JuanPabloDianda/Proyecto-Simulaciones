@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+		
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<Section>
+					<h2>Simulación de Monte Carlo.</h2>
+					<h3>- Dianda Juan Pablo</h3>
+					<h3>- Luciano Mateo</h3>
+					<img src="rul.jpg" alt="Simulación de Monte Carlo" width="600">
+				</Section>
+				<section>
+					<h2>¿Qué son?</h2>
+					<p style="text-align: justify; text-wrap:pretty;">Una simulación de Monte Carlo es un modelo probabilístico que puede incluir un elemento de incertidumbre o aleatoriedad en su predicción. Cuando se utiliza un modelo probabilístico para simular una salida, se obtienen resultados diferentes cada vez.</p>
+				</section>
+				<section>
+					<h2>¿En qué consiste?</h2>
+					<p style="text-align: justify;">Las simulaciones de Monte Carlo son una técnica matemática que predice los posibles resultados de un evento incierto. Los programas informáticos utilizan este método para analizar datos pasados y predecir una serie de resultados futuros en función de una elección de acción. </p>
+				</section>
+				<section>
+					<h2>Ejemplificación</h2>
+					<p style="text-align: justify;">Si desea estimar las ventas del primer mes de un nuevo producto, puede proporcionar al programa de simulación de Monte Carlo los datos históricos de ventas. El programa estimará diferentes valores de venta en función de factores como las condiciones generales del mercado, el precio del producto y el presupuesto de publicidad.</p>
+				</section>
+				<section>
+					<h2>¿Cómo se origina?</h2>
+					<ul style="font-size: 30px; text-align: justify;">
+						<li>La Simulación de Monte Carlo fue desarrollada en la década de 1940 por el físico Stanislaw Ulam y el matemático John von Neumann durante su trabajo en el Laboratorio Nacional de Los Álamos en Nuevo México, Estados Unidos.</li>
+						<li>Ulam propuso el método inicialmente en 1946, mientras trabajaba en problemas de probabilidad para mejorar el cálculo de trayectorias de neutrones en reacciones nucleares, una necesidad fundamental en el desarrollo de armas nucleares durante la Segunda Guerra Mundial.</li>
+						<li>Con la ayuda de von Neumann, quien era experto en computación y lógica, lograron aplicar este método de simulación, utilizando una de las primeras computadoras, la ENIAC, para realizar cálculos complejos y repetitivos necesarios para el método.</li>
+					</ul>
+					
+					 <!--<p style="font-size: 30px; text-align: justify;">La Simulación de Monte Carlo fue desarrollada en la década de 1940 por el físico Stanislaw Ulam y el matemático John von Neumann durante su trabajo en el Laboratorio Nacional de Los Álamos en Nuevo México, Estados Unidos. Ulam propuso el método inicialmente en 1946, mientras trabajaba en problemas de probabilidad para mejorar el cálculo de trayectorias de neutrones en reacciones nucleares, una necesidad fundamental en el desarrollo de armas nucleares durante la Segunda Guerra Mundial. <br>
+
+					 Con la ayuda de von Neumann, quien era experto en computación y lógica, lograron aplicar este método de simulación, utilizando una de las primeras computadoras, la ENIAC, para realizar cálculos complejos y repetitivos necesarios para el método.</p> -->
+				</section>
+				<section>
+					<h2 style="text-wrap: balance;">¿Por qué se llaman así?</h2>
+					<p style="text-align: justify;">El nombre "Monte Carlo" se le ocurrió a Ulam en referencia al famoso casino de Mónaco, ya que el método implica el uso de números aleatorios, similar a la naturaleza de los juegos de azar.</p>
+				</section>
+
+				<section>
+					<h2 style="text-wrap: balance;">¿Por qué son importantes?</h2>
+					<p style="text-align: justify;">Las simulaciones de Monte Carlo son importantes porque permiten analizar y entender sistemas complejos y con alto grado de incertidumbre de una manera que otros métodos no pueden.</p>
+				</section>
+				<section>
+					<h2>Ventajas de usar este método</h2>
+					<p style="text-align: justify;">Las simulaciones de Monte Carlo proporcionan múltiples salidas posibles y la probabilidad de cada una de estas a partir de un gran conjunto de muestras de datos aleatorios. Ofrece un panorama más claro que una previsión determinista. Por ejemplo, prever los riesgos financieros requiere analizar docenas o cientos de factores de riesgo. Los analistas financieros utilizan la simulación de Monte Carlo para obtener la probabilidad de cada resultado posible. </p>
+				</section>
+
+				<section>
+					<h2>¿Cuándo se usa?</h2>
+					<p style="font-size: 30px; text-align: justify;">
+						La Simulación de Monte Carlo se usa principalmente cuando: <br>
+
+						1. Existe incertidumbre en el problema: Es ideal cuando el problema involucra múltiples variables con incertidumbre o aleatoriedad. Por ejemplo, en finanzas para prever el rendimiento de una inversión bajo diferentes escenarios económicos, o en ingeniería para modelar fallos en sistemas complejos. <br>
+
+						2. Es difícil o imposible encontrar una solución determinista: En sistemas complejos con muchas variables y relaciones no lineales, es difícil calcular un resultado exacto. Monte Carlo permite hacer aproximaciones que ayudan a comprender el rango de posibles resultados, como en la predicción del clima o en estudios de riesgo. <br>
+
+						3. Se requieren análisis de riesgo y probabilidad: En campos donde se necesita conocer las probabilidades de diferentes resultados (por ejemplo, probabilidad de pérdida o ganancia en finanzas), el método es útil para generar distribuciones de posibles escenarios. <br>
+					</p>
+				</section>
+				<section>
+					<p style="font-size: 30px; text-align: justify;">
+						4. Se desea optimizar un proceso o un sistema bajo condiciones inciertas: En la optimización de proyectos de construcción, planes de producción o gestión de inventarios, Monte Carlo ayuda a modelar escenarios de tiempo, costo y recursos bajo variabilidad. <br>
+
+						5. Es necesaria la simulación de eventos complejos o de sistemas no lineales: En simulaciones donde las variables interdependen de formas complejas, como en estudios de genética, física de partículas o flujo de tráfico, Monte Carlo permite analizar millones de posibles resultados para inferir patrones o rangos de comportamiento. 
+					</p>
+				</section>
+				<section>
+					<h2>¿En qué ámbitos se utiliza?</h2>
+					<p style="font-size: 30px; text-align: justify;">
+						1. Finanzas y economía: Se usa para evaluar riesgos en inversiones y para modelar el precio de activos financieros, como acciones y opciones. Permite a los analistas realizar previsiones bajo distintos escenarios económicos y medir el impacto de diferentes variables (como tasas de interés, inflación, volatilidad). <br>
+						
+						2. Ingeniería y manufactura: Ayuda en el diseño y pruebas de productos, simulando cómo rendirían bajo diferentes condiciones de estrés, temperatura o uso. También se usa en la planificación y optimización de proyectos, considerando posibles retrasos y variaciones en el costo. <br>
+						
+						3. Ciencias físicas y biológicas: En estas áreas, se utiliza para modelar fenómenos complejos y estudiar sistemas en los que existen incertidumbres, como la física de partículas, la genética o el comportamiento de epidemias.  <br>
+					</p>
+				</section>
+
+					<section>
+						<p style="font-size: 30px; text-align: justify;">
+							
+							4. Gestión de proyectos y operaciones: Se emplea para prever la duración de proyectos con incertidumbres en el tiempo y los recursos necesarios, calculando la probabilidad de cumplimiento de plazos y costos. <br>
+							
+							5. Meteorología y cambio climático: En estos campos, se usa para generar modelos que predicen el comportamiento de fenómenos climáticos complejos, proporcionando proyecciones bajo distintas condiciones. <br>
+							
+							6. Gaming e inteligencia artificial: En juegos y simulaciones de decisiones, se usa para modelar la toma de decisiones bajo incertidumbre, como en algoritmos de inteligencia artificial que simulan distintos movimientos o estrategias posibles.
+						</p>
+					</section>
+					<section>
+						<h2 style="text-wrap: balance;">Componentes de una simulación de Monte Carlo</h2>
+					</section>
+					<section>
+						<h2>Variables de entrada</h2>
+						<p style="font-size: 30px; text-align: justify;">Las variables de entrada son valores aleatorios que afectan la salida de la simulación de Monte Carlo. Por ejemplo, la calidad de fabricación y la temperatura son variables de entrada que influyen en la durabilidad de un teléfono inteligente. Las variables de entrada se pueden expresar como un rango de muestras de valores aleatorios de modo que los métodos de Monte Carlo puedan simular los resultados con valores de entrada aleatorios. </p>
+					</section>
+					<section>
+						<h2>Variable de salida</h2>
+						<p style="font-size: 30px; text-align: justify;">La variable de salida es el resultado del análisis de Monte Carlo. Por ejemplo, la vida útil de un dispositivo electrónico es una variable de salida, que se expresa en un valor de tiempo, como 6 meses o 2 años. El software de simulación de Monte Carlo muestra la variable de salida en un histograma o gráfico que distribuye el resultado en un rango continuo en el eje horizontal.</p>
+					</section>
+					<section>
+						<h2>Modelo matemático</h2>
+						<ul style="font-size: 30px; text-align: justify;">
+							<li>Un modelo matemático es una ecuación que describe la relación entre las variables de salida y de entrada en forma matemática. Por ejemplo, el modelo matemático de rentabilidad es Beneficio = Ingresos - Gastos.</li>
+							<li>El software de Monte Carlo sustituye los ingresos y los gastos por valores probables en función del tipo de distribución de probabilidad. Posteriormente, repite la simulación para obtener un resultado muy preciso. La simulación de Monte Carlo se puede ejecutar durante horas cuando el modelo matemático involucra muchas variables aleatorias. </li>
+						</ul>
+					</section>
+					<section>
+						<h2 style="text-wrap: balance; text-align: center; font-size: 50px;">Distribuciones de probabilidad en las simulaciones de Monte Carlo</h2>
+						<p style="font-size: 30px; text-align: justify;">Las distribuciones de probabilidad son funciones estadísticas que representan un rango de valores distribuidos entre límites. Los expertos en estadística utilizan las distribuciones de probabilidad para predecir la posible presencia de una variable incierta, que puede consistir en valores discretos o continuos. </p>
+					</section>
+					<section>
+						<h2>Distribución exponencial</h2>
+						<p style="font-size: 30px; text-align: justify;">La distribución de probabilidad discreta se representa mediante números enteros o una secuencia de números finitos. Cada uno de los valores discretos tiene una probabilidad mayor que cero. Los especialistas en estadística trazan la distribución de probabilidad discreta en una tabla, pero trazan la distribución de probabilidad continua como una curva entre dos puntos dados en el eje x de un gráfico. Los siguientes son tipos comunes de distribuciones de probabilidad que una simulación de Monte Carlo puede modelar.</p>
+						<img src="exponencial.PNG" alt="exponencial" width="600">
+					</section>
+					<section>
+						<h2>Distribución normal</h2>
+						<p style="font-size: 30px; text-align: justify;">La distribución normal, también conocida como curva de campana, tiene forma simétrica de campana y representa la mayoría de los acontecimientos que se producen en la vida real. La posibilidad de un valor aleatorio en la mediana es alta y la probabilidad disminuye significativamente hacia ambos extremos de la curva de campana.</p>
+						<img src="normal.PNG" alt="normal" width="600" height="370">
+					</section>
+					<section>
+						<h2>Distribución uniforme</h2>
+						<p style="font-size: 30px; text-align: justify;">La distribución uniforme se refiere a una representación estadística de variables aleatorias que tienen la misma probabilidad. Cuando se trazan en un gráfico, las variables distribuidas uniformemente aparecen como una línea plana horizontal a través del rango válido. Por ejemplo, la distribución uniforme representa la probabilidad de lanzar y obtener un resultado en cada lado de un dado.</p>
+						<img src="uniforme.PNG" alt="uniforme" width="600">
+					</section>
+						
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
+
+				slideNumber: true,
+				
+				transition: 'zoom'
+			});
+		</script>
+	</body>
+</html>
