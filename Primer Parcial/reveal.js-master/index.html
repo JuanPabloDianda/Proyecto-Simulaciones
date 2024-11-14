@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Integrantes</h1>
+					<p>Dianda Juan Pablo <br> Quintana Juan Manuel</p>
+				</section>
+				<section>
+					<h2>Problema 4</h2>
+					<p>Un orfebre fabrica dos tipos de joyas. Las del tipo A precisan 1 gr de oro y 1,5 gr de plata, vendiéndolas a 40 euros cada una. Para la fabricación de las de tipo B emplea 1,5 gr de oro y 1 gr de plata, y las vende a 50 euros. El orfebre tiene solo en el taller 750 gr de cada uno de los metales. Calcula cuántas joyas ha de fabricar de cada clase para obtener un beneficio máximo</p>
+				</section>
+				<section>
+					<h2>Instalar e Importar librería "PULP"</h2>
+					<img src="imagenes/installpulp.jpeg" alt="">
+					<br>
+					<img src="imagenes/pulp.jpeg" alt="">
+				</section>
+				<section>
+					<h3>Función Objetivo</h3>
+					<p>Maximizar: 40x + 50y</p>
+					<h3>Restricciones</h3>
+					<p>X + 1.5Y <= 750 (Oro)</p>
+					<p>1.5X + Y <= 750 (Plata)</p>
+				</section>
+				<section>
+					<h3>Código:</h3>
+					<img src="imagenes/Codigo4.jpeg" alt="">
+				</section>
+				<section>
+					<h3>Resultado:</h3>
+					<img src="imagenes/resultado4.jpeg" alt="">
+				</section>
+				<section>
+					<h3>Gráfico</h3>
+					<img src="imagenes/grafico4.jpeg" alt="">
+				</section>
+				<section>
+					<h3>Otra propuesta:</h3>
+					<h5>Función Objetivo</h5>
+					<p>Maximizar: 40x + 50y</p>
+					<h5>Restricciones</h5>
+					<p>X + 1.5Y <= 625 (Oro)</p>
+					<p>1.5X + Y <= 625 (Plata)</p>
+				</section>
+				<section>
+					<h3>Codigo:</h3>
+					<img src="imagenes/codigo4.1.jpeg" alt="">
+				</section>
+				<section>
+					<h3>Resultado:</h3>
+					<p>Joyas tipo A: 250 <br>
+						Joyas tipo B: 250 <br>
+						Ganancia total: $22500.0</p>
+				</section>
+				<section>
+					<h3>Gráfica</h3>
+					<img src="imagenes/grafica4.1.jpeg" alt="">
+				</section>
+				<section>
+					<h2>Problema 5</h2>
+					<p>Una fábrica produce chaquetas. Tres máquinas, de cortar, coser y teñir se emplean en la producción. Fabricar una chaqueta representa usar la máquina de cortar una hora, la de coser tres horas y la de teñir, una hora. Fabricar unos pantalones representa usar la máquina de cortar una hora, la de coser una hora y la de teñir ninguna hora. La máquina de teñir se puede usar durante tres horas, la de coser doce y la de cortar siete. Todo lo que se fabrica es vendido y se obtiene un beneficio de ocho euros por cada chaqueta y cinco por cada pantalón. ¿Cómo emplearemos las máquinas para conseguir el beneficio máximo?</p>
+				</section>
+				<section>
+					<h2>Instalar e Importar librería "PULP"</h2>
+					<img src="imagenes/installpulp.jpeg" alt="">
+					<br>
+					<img src="imagenes/pulp.jpeg" alt="">
+				</section>
+				<section>
+					<h3>Función Objetivo</h3>
+					<p>8X + 5Y</p>
+					<h3>Restricciones</h3>
+					<p>X + Y <= 7 </p>
+					<p>	3X + Y <= 12 </p>
+					<p>X <= 3</p>
+				</section>
+				<section>
+					<h3>Código: </h3>
+					<img src="imagenes/codigo5.jpeg" alt="">
+				</section>
+				<section>
+					<H3>Resultado:</H3>
+					<p>Chaquetas: 2 <br>
+						Pantalones: 5 <br>
+						Ganancia total: $41.0</p>
+					<p>Maquina de teñir: 1 hora de desuso</p>
+				</section>
+				<section>
+					<h3>Gráfico</h3>
+					<img src="imagenes/grafico5.jpeg" alt="">
+				</section>
+				<section>
+					<h3>Otra propuesta:</h3>
+					<h5>Función Objetivo</h5>
+					<p>8X + 5Y</p>
+					<h5>Restricciones</h5>
+					<p>X + Y <= 7 </p>
+					<p>	3X + Y <= 12 </p>
+					<p>X <= 3</p>
+					<p>X >= 3</p>
+				</section>
+				<section>
+					<h3>Código: </h3>
+					<img src="imagenes/codigo5-1.jpeg" alt="">
+				</section>
+				<section>
+					<h3>Resultado:</h3>
+					<p>Chaquetas: 3 <br>
+						Pantalones: 3 <br>
+						Ganancia total: $39.0</p>
+					<p>Maquina de Cortar: 1 hr de desuso</p>
+				</section>
+				<section>
+					<h3>Gráfico</h3>
+					<img src="imagenes/grafica5.1.jpeg" alt="">
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
